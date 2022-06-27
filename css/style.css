@@ -29,21 +29,22 @@ img{
   object-fit: cover;
 }
 header, footer{
-  background-color: #7b543734;
+  /* background-color: #e4d1b3; */
+}
+.header-content{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
 }
 .header-content, .footer-content{
+  /* height: 90px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-content{
-  height: 120px;
-}
-.footer-content{
-  height: 90px;
-}
 .logo img{
-  max-width: 200px;
+  max-width: 150px;
 }
 .main-content{
   margin: 100px 0;
@@ -75,9 +76,10 @@ header, footer{
   margin-bottom: 100px;
 }
 .title-general{
+  font-size: 16px;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 40px;
+  margin: 0;
+  color: #7B5537;
 }
 .title{
   margin-top: 0;
@@ -160,6 +162,19 @@ header, footer{
 .catalog-item-description{
   margin-top: 20px;
 }
+.copyright{
+  color: #7B5537;
+}
+#myVideo {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  max-height: 900px;
+  object-fit: cover;
+}
 @media (max-width: 1366px) {
   .container{
     max-width: 900px;
@@ -196,8 +211,8 @@ header, footer{
   }
 }
 @media (max-width: 768px) {
-  .header-content{
-    justify-content: center;
+  .title-general{
+    font-size: 14px;
   }
   .main-content{
     margin: 40px 0;
