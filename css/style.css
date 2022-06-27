@@ -11,6 +11,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: #4D4D4D;
 }
 .container{
   max-width: 1200px;
@@ -24,7 +25,7 @@ img{
   object-fit: cover;
 }
 header, footer{
-  background-color: #5f465446;
+  background-color: #C57F9980;
 }
 .header-content, .footer-content{
   height: 90px;
@@ -38,15 +39,15 @@ header, footer{
 .btn{
   width: 220px;
   height: 55px;
-  background-color: #5f465446;
-  color: #000000;
+  background-color: #BF7691;
+  color: #FFFFFF;
   border: none;
   cursor: pointer;
   font-family: inherit;
   transition: color 0.5s;
 }
 .btn:hover, .btn:focus{
-	box-shadow: 0 5px 10px -2px #5f465446;
+	box-shadow: 0 5px 10px -2px #BF7691;
 	transform: translatey(-5px);
 }
 .btn:active {
@@ -79,8 +80,9 @@ header, footer{
   text-decoration: none;
   width: 220px;
   height: 55px;
-  color: #5f465446;
-  border: 2px solid #5f465446;
+  color: #BF7691;
+  border: 2px solid #BF7691;
+  border-radius: 10px;
   cursor: pointer;
   transition: color 0.5s;
   display: flex;
@@ -104,13 +106,14 @@ header, footer{
 }
 .catalog-tab {
   background-color: transparent;
-  color: #5f465446;
-  border: 2px solid #5f465446;
+  color: #BF7691;
+  border: 2px solid #BF7691;
+  border-radius: 10px;
   transition: color 0.5s;
 }
 .tab-active {
-  background-color: #5f465446;
-  color: #000000;
+  background-color: #BF7691;
+  color: #ffffff;
 }
 .catalog-items {
   display: none;
