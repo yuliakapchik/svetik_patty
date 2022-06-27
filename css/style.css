@@ -29,7 +29,7 @@ img{
   object-fit: cover;
 }
 header, footer{
-  background-color: #C57F9980;
+  background-color: #7b543734;
 }
 .header-content, .footer-content{
   display: flex;
@@ -51,7 +51,7 @@ header, footer{
 .btn{
   width: 220px;
   height: 55px;
-  background-color: #BF7691;
+  background-color: #7B5537;
   color: #FFFFFF;
   border: none;
   cursor: pointer;
@@ -59,7 +59,7 @@ header, footer{
   transition: color 0.5s;
 }
 .btn:hover, .btn:focus{
-	box-shadow: 0 5px 10px -2px #BF7691;
+	box-shadow: 0 5px 10px -2px #7B5537;
 	transform: translatey(-5px);
 }
 .btn:active {
@@ -92,8 +92,8 @@ header, footer{
   text-decoration: none;
   width: 220px;
   height: 55px;
-  color: #BF7691;
-  border: 2px solid #BF7691;
+  color: #7B5537;
+  border: 2px solid #7B5537;
   border-radius: 10px;
   cursor: pointer;
   transition: color 0.5s;
@@ -118,13 +118,13 @@ header, footer{
 }
 .catalog-tab {
   background-color: transparent;
-  color: #BF7691;
-  border: 2px solid #BF7691;
+  color: #7B5537;
+  border: 2px solid #7B5537;
   border-radius: 10px;
   transition: color 0.5s;
 }
 .tab-active {
-  background-color: #BF7691;
+  background-color: #7B5537;
   color: #ffffff;
 }
 .catalog-items {
