@@ -28,8 +28,8 @@ img{
   width: 100%;
   object-fit: cover;
 }
-header, footer{
-  /* background-color: #e4d1b3; */
+footer{
+  background-color: #e4d1b317;
 }
 .header-content{
   position: absolute;
@@ -94,10 +94,11 @@ header, footer{
   margin-bottom: 100px;
 }
 .title-general{
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
-  margin: 0;
+  margin: auto;
   color: #7B5537;
+  font-weight: bold;
 }
 .title{
   margin-top: 0;
