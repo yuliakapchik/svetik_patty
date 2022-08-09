@@ -181,6 +181,10 @@ footer{
 .catalog-item-description{
   margin-top: 20px;
 }
+.home{
+  display: block;
+  margin-top: 30px;
+}
 .copyright{
   color: #7B5537;
 }
@@ -193,6 +197,25 @@ footer{
   width: 100%;
   height: 700px;
   object-fit: cover;
+}
+.catalog-items-bento{
+  grid-template-columns: repeat(2, 1fr);
+}
+.catalog-items-bento .catalog-item{
+  max-width: 100%;
+}
+.catalog-items-bento .catalog-item-title{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.catalog-items-bento .bento-description{
+  margin-top: 20px;
+}
+.catalog-items-wedding img{
+  height: 100%;
+}
+.title-description-cupcake, .title-description-trifle, .title-description-macarons{
+  margin-bottom: 20px;
 }
 @media (max-width: 1366px) {
   .container{
