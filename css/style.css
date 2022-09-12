@@ -211,11 +211,17 @@ footer{
 .catalog-items-bento .bento-description{
   margin-top: 20px;
 }
-.catalog-items-wedding img{
+.catalog-items-wedding img, .example img {
   height: 100%;
 }
 .title-description-cupcake, .title-description-trifle, .title-description-macarons{
   margin-bottom: 20px;
+}
+.example{
+  margin-top: 50px;
+}
+.chocolate-figurines.is-active{
+  display: block;
 }
 @media (max-width: 1366px) {
   .container{
