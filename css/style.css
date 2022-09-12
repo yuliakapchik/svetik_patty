@@ -101,7 +101,7 @@ footer{
   font-weight: bold;
 }
 .title{
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -218,7 +218,7 @@ footer{
   margin-bottom: 20px;
 }
 .example{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .chocolate-figurines.is-active{
   display: block;
