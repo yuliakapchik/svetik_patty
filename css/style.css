@@ -101,7 +101,7 @@ footer{
   font-weight: bold;
 }
 .title{
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -172,6 +172,10 @@ footer{
   text-decoration: none;
   color: inherit;
 }
+.catalog-item-wrap{
+  display: flex;
+  justify-content: space-between;
+}
 .catalog-item-title{
   font-weight: bold;
   margin-top: 20px;
@@ -180,6 +184,11 @@ footer{
 }
 .catalog-item-description{
   margin-top: 20px;
+}
+.catalog-item-price{
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 .home{
   display: block;
@@ -211,11 +220,20 @@ footer{
 .catalog-items-bento .bento-description{
   margin-top: 20px;
 }
-.catalog-items-wedding img{
+.catalog-items-wedding img, .example img {
   height: 100%;
 }
-.title-description-cupcake, .title-description-trifle, .title-description-macarons{
+.title-description-cupcake, .title-description-trifle, .title-description-macarons, .title-description-mousse{
   margin-bottom: 20px;
+}
+.example{
+  margin-top: 20px;
+}
+.chocolate-figurines.is-active{
+  display: block;
+}
+.delivery{
+  margin-top: 100px;
 }
 @media (max-width: 1366px) {
   .container{
@@ -232,6 +250,9 @@ footer{
   .contacts{
     flex-direction: column;
     margin-bottom: 50px;
+  }
+  .delivery{
+    margin-top: 50px;
   }
   .contacts-img{
     width: 100%;
